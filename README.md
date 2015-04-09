@@ -15,16 +15,18 @@ Patches, suggestions and bug reports (with as much info as possible) are always 
 
 Supported Authentication methods
 
-password
-private-key (OpenSsh private key format)
-Requirements
+* password
+* private-key (OpenSsh private key format)
+* Requirements
 
-Windows XP SP3(x86) or Windows Vista SP1 (x86 and x64) or Windows 7 (x86 and x64)
-Microsoft .NET Framework 4 Full Profile (http://www.microsoft.com/download/en/details.aspx?id=17718)
-Dokan Library 0.6.0 (http://dokan-dev.net/wp-content/uploads/DokanInstall_0.6.0.exe)
+* Windows XP SP3(x86) or Windows Vista SP1 (x86 and x64) or Windows 7 (x86 and x64)
+* Microsoft .NET Framework 4 Full Profile (http://www.microsoft.com/download/en/details.aspx?id=17718)
+* Dokan Library 0.6.0 (http://dokan-dev.net/wp-content/uploads/DokanInstall_0.6.0.exe)
+
 Known bugs
 
 Due the nature of symlink mapping(Windows is unaware of it) the deletion of symlink that points to directory will result in deleting of source directories content.
+
 If you get disconnect(disconnected by server,internet connection malfunction and similar) drive may become unresponsive and you have to terminate the Sshfs.exe process and start it again. manually unmount him and mount again.
 TODO
 
@@ -36,8 +38,8 @@ Add symlink support. - Done
 Implement gui and persistent mounting service. - Done
 
 External links
-SSH.NET Library	http://sshnet.codeplex.com/
-Dokan Library	http://code.google.com/p/dokan/
-CLAP Library	https://github.com/adrianaisemberg/CLAP
-SharpSetup	http://sharpsetup.eu/
-Tango Icons	http://tango.freedesktop.org/Tango_Icon_Gallery
+* SSH.NET Library	http://sshnet.codeplex.com/
+* Dokan Library	http://code.google.com/p/dokan/
+* CLAP Library	https://github.com/adrianaisemberg/CLAP
+* SharpSetup	http://sharpsetup.eu/
+* Tango Icons	http://tango.freedesktop.org/Tango_Icon_Gallery
